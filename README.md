@@ -410,3 +410,23 @@ kustomize build | kubectl apply -f -
 ## License
 
 [License](LICENSE.md)
+
+## Deployment Evidence
+
+### Frontend
+
+The frontend application is deployed on AWS EKS and successfully displays the movie list and movie details.
+
+Working URL:
+http://adfeda5a39ec14bc2830784bfbc026e6-1606498492.us-east-1.elb.amazonaws.com
+
+![Frontend Working](Screenshots/frontend-working.png)
+
+### Backend
+
+The backend API is deployed on AWS EKS and successfully returns the list of movies.
+
+Working URL:
+http://a065f6b85ee5b4a2bac2d14ab3f7f32b-632129445.us-east-1.elb.amazonaws.com/movies
+
+![Backend Movies API](Screenshots/backend-movies-api.png)
